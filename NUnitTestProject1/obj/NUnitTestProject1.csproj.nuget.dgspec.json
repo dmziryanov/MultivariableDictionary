@@ -4,6 +4,16 @@
     "C:\\Users\\dmitriy.ziryanov\\source\\repos\\ConsoleApp2\\NUnitTestProject1\\NUnitTestProject1.csproj": {}
   },
   "projects": {
+    "C:\\Users\\dmitriy.ziryanov\\source\\repos\\ConsoleApp2\\ConsoleApp2\\ConsoleApp2.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dmitriy.ziryanov\\source\\repos\\ConsoleApp2\\ConsoleApp2\\ConsoleApp2.csproj",
+        "projectName": "ConsoleApp2",
+        "projectPath": "C:\\Users\\dmitriy.ziryanov\\source\\repos\\ConsoleApp2\\ConsoleApp2\\ConsoleApp2.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\Users\\dmitriy.ziryanov\\source\\repos\\ConsoleApp2\\NUnitTestProject1\\NUnitTestProject1.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -32,7 +42,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\dmitriy.ziryanov\\source\\repos\\ConsoleApp2\\ConsoleApp2\\ConsoleApp2.csproj": {
+                "projectPath": "C:\\Users\\dmitriy.ziryanov\\source\\repos\\ConsoleApp2\\ConsoleApp2\\ConsoleApp2.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

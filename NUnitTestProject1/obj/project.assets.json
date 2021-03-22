@@ -1225,6 +1225,15 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
+      },
+      "ConsoleApp2/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/ConsoleApp2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ConsoleApp2.dll": {}
+        }
       }
     }
   },
@@ -4618,10 +4627,16 @@
         "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xmldocument.nuspec"
       ]
+    },
+    "ConsoleApp2/1.0.0": {
+      "type": "project",
+      "path": "../ConsoleApp2/ConsoleApp2.csproj",
+      "msbuildProject": "../ConsoleApp2/ConsoleApp2.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "ConsoleApp2 >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.4.0",
       "NUnit3TestAdapter >= 3.15.1",
       "nunit >= 3.12.0"
@@ -4659,7 +4674,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\dmitriy.ziryanov\\source\\repos\\ConsoleApp2\\ConsoleApp2\\ConsoleApp2.csproj": {
+              "projectPath": "C:\\Users\\dmitriy.ziryanov\\source\\repos\\ConsoleApp2\\ConsoleApp2\\ConsoleApp2.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
