@@ -21,13 +21,13 @@ namespace NUnitTestProject1
         [Test]
         public void TestQuantity()
         {
-            var mv = new MultivariableDictionary<string, string>();
             Assert.AreEqual(2,  mv.Count());
         }
 
+        [Test]
         public void SequenceEqual()
         {
-            List<string> l = new List<string>() { "a", "b" };
+            List<string> l = new List<string>() { "b", "c" };
             Assert.IsTrue(mv.ToList().SequenceEqual<string>(l));
         }
     }

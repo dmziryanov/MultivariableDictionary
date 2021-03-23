@@ -94,3 +94,6 @@ C:\Users\dmitriy.ziryanov\source\repos\ConsoleApp2\NUnitTestProject1\obj\Debug\n
 C:\Users\dmitriy.ziryanov\source\repos\ConsoleApp2\NUnitTestProject1\obj\Debug\netcoreapp3.1\NUnitTestProject1.dll
 C:\Users\dmitriy.ziryanov\source\repos\ConsoleApp2\NUnitTestProject1\obj\Debug\netcoreapp3.1\NUnitTestProject1.pdb
 C:\Users\dmitriy.ziryanov\source\repos\ConsoleApp2\NUnitTestProject1\obj\Debug\netcoreapp3.1\NUnitTestProject1.genruntimeconfig.cache
+C:\Users\dmitriy.ziryanov\source\repos\ConsoleApp2\NUnitTestProject1\bin\Debug\netcoreapp3.1\ConsoleApp2.exe
+C:\Users\dmitriy.ziryanov\source\repos\ConsoleApp2\NUnitTestProject1\bin\Debug\netcoreapp3.1\ConsoleApp2.pdb
+C:\Users\dmitriy.ziryanov\source\repos\ConsoleApp2\NUnitTestProject1\bin\Debug\netcoreapp3.1\ConsoleApp2.exe.config
