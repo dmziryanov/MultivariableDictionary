@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace ConsoleApp2
 {
 
-    public class MultivariableDictionary<K, V> : IEnumerable<V>
+    public class MultivariableDictionary<K, V> : IMultivariableDictionary<K, V>,  IEnumerable<V>
     {
         private Dictionary<K, HashSet<V>> storage = new Dictionary<K, HashSet<V>>();
         
@@ -71,5 +71,11 @@ namespace ConsoleApp2
             Console.WriteLine(mv.Count());
             Console.WriteLine(mv.Get("a"));
         }
+    }
+
+    public interface IMultivariableDictionary<K, V>
+    {
+        void Add(K key, V value);
+        IEnumerable<V> Get(K key);
     }
 }
